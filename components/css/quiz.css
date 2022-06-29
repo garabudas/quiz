@@ -57,6 +57,12 @@ body {
     height: 57px;
     width: 246px;
   }
+
+@media (min-width: 1200px) {
+  .ms-xl-6 {
+    margin-left: 4rem !important;
+  }
+}
 #mainPort {
  background-image: url('../../bg/light-2.webp');
  background-size: 100%;

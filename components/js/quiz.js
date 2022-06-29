@@ -227,6 +227,7 @@ function kTr(eventName){
 
 
 $(document).ready(function(){
+    console.log(screen.width);
     let p = $("#progress-load");
     // console.log(p[0].attributes["aria-valuenow"].value);
     $(".progress-bar").animate({width: p[0].attributes["aria-valuenow"].value+ '%'});
