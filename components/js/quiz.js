@@ -148,20 +148,20 @@ $('.ans-btn').click(function(){
             // kTr('Lead');
         
             document.cookie="gender="+ans+";path=/";
-            window.location.href="/age/";
+            window.location.href="/quiz/age/";
          
         break;
         case 1:
             // ttq.track('SubmitForm');
             document.cookie="userage="+ans+";path=/";
-            window.location.href="/metabolism/";
+            window.location.href="/quiz/metabolism/";
        
         break;
         case 2:
        
 
         document.cookie="metabolism="+ans+";path=/";
-        window.location.href="/weight/";
+        window.location.href="/quiz/weight/";
      
         break;
         case 3:
@@ -169,7 +169,7 @@ $('.ans-btn').click(function(){
             var s = $("#weightMs").text();
     
             document.cookie="weight="+$.trim(s)+";path=/";
-            window.location.href="/goal/";
+            window.location.href="/quiz/goal/";
           
             break;
             case 4 :
@@ -178,7 +178,7 @@ $('.ans-btn').click(function(){
                 // kTr('Contact');
                 // gtag('event', 'conversion', {'send_to': 'AW-10886811479/-Xg0CLvhvrQDENeensco'});
                 document.cookie="goal="+ans+";path=/";
-                window.location.href="/challenge/";
+                window.location.href="/quiz/challenge/";
               
             break;
          
