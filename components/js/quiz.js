@@ -131,7 +131,8 @@ $('.ans-btn').click(function(){
 
         setTimeout(() => {
             document.cookie = "_fbe_id="+event_id;
-            window.location.href="https://kaizerfit.com/fathacks-vsl.html?gid="+event_id;   
+            // window.location.href="https://kaizerfit.com/fathacks-vsl.html?gid="+event_id;
+            window.location.href="/fathacks";   
         }, 500);
       
         return false;
